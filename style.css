@@ -231,7 +231,7 @@ input:focus {
 }
 
 .cli img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -239,12 +239,12 @@ input:focus {
 }
 
 /* Features */
-.features-head img {
+.features-head a {
     width: 200px;
     justify-self: flex-end; 
 }
 
-.features-sub-head img {
+.features-sub-head a {
     width: 300px;
     justify-self: flex-end; 
 }
@@ -406,8 +406,8 @@ input:focus {
         text-align: center;
     }
 
-    .features-head img, 
-    .features-sub-head img{
+    .features-head a, 
+    .features-sub-head a{
         justify-self: center;
     }
 
